@@ -14,3 +14,4 @@
 Perceptron_Classification是用单隐藏层感知机对FashionMNIST进行分类，可以输出loss function和confidence scores。  
 
 总结：要先下载数据集并对图片进行处理，转换成tensor，并用dataloader对training dataset和test dataset“取样”，然后构造神经网络结构（包含loss function和optimization），构造一个train model对training data进行训练（backpropagation），再构造一个test model对test data进行检验。
+- 权重衰退（regularization）
