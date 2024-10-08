@@ -15,3 +15,7 @@ Perceptron_Classification是用单隐藏层感知机对FashionMNIST进行分类�
 
 总结：要先下载数据集并对图片进行处理，转换成tensor，并用dataloader对training dataset和test dataset“取样”，然后构造神经网络结构（包含loss function和optimization），构造一个train model对training data进行训练（backpropagation），再构造一个test model对test data进行检验。
 - 权重衰退（regularization）
+- kaggle的房价预测。（前两天因为要开学了就休息了两天，昨天开始调试的代码）
+需要注意：1. 需要对特征进行筛选，不然内存会爆。
+         2. pd.concat[]默认是axis=0,注意拼接方向。
+         3. Cross-Validation代码要着重学习一下。
